@@ -1,1 +1,2 @@
-# design-notes
+### A notebook for coding tricks/ hacks
+

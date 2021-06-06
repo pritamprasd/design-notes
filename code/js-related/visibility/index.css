@@ -1,0 +1,11 @@
+.document-hidden-item {
+    color: grey;
+}
+
+.document-focused-item {
+    color: black;
+}
+
+.document-prerender-item {
+    color: orange;
+}

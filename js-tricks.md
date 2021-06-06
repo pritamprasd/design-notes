@@ -1,8 +1,6 @@
-## JS related:
+# JS related:
 
-- https://1linelayouts.glitch.me/
-
-### Web APIs:
+## Web APIs:
 
 ### Visbility change API: when user click on other tabs
 

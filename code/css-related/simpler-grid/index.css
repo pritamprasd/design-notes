@@ -1,0 +1,42 @@
+.parent-grid {
+    display: grid;
+    grid-template-rows: 20% 30% 50%;
+    place-items: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 400px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+    margin: 4px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+    margin: 4px;
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+    margin: 4px;
+}
+
+.items {
+    background-color: coral;
+    border: 1px solid black;
+    margin: 4px;
+}

@@ -7,4 +7,6 @@ RUN pip install flask
 
 COPY app.py /home/app.py
 
+EXPOSE 5000
+
 ENTRYPOINT FLASK_APP=/home/app.py flask run --host=0.0.0.0

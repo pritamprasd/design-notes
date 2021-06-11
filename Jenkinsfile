@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('stop') {
-      steps {
-        echo 'all done'
-      }
-    }
-
   }
 }

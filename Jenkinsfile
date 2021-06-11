@@ -1,9 +1,20 @@
 pipeline {
   agent any
   stages {
-    stage('stop') {
+    stage('print') {
       steps {
-        sh 'ip addr'
+        sh 'echo \'from inside pipeline stage\''
+        sh 'ls -la .'
+        sh 'ls -la /'
+      }
+    }
+
+    stage('build') {
+      steps {
+        sh 'cd servers/dummy/backend-flask'
+        sh 'python -m venv venv'
+        sh 'source venv/bin/activate'
+        sh 'pip install -r requirement.txt'
       }
     }
 

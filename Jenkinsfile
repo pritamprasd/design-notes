@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('stop') {
+    stage('print') {
       steps {
-        sh 'ip addr'
+        sh 'echo \'from inside pipeline stage\''
       }
     }
 

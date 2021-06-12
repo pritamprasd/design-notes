@@ -5,4 +5,7 @@ app = Flask(__name__)
 
 @app.route("/hello")
 def index():
-    return "Hello World!"
+    return {
+        'status': 200,
+        'message': "Hello Staranger"
+    }

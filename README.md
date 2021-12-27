@@ -1,7 +1,7 @@
 ### A notebook for coding tricks/ hacks
 
-- [css](./css-tricks.md)
-- [js](./js-tricks.md)
+- [css](./frontend/css-tricks.md)
+- [js](./frontend/js-tricks.md)
 
 #### Notes:
 
